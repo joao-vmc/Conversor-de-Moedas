@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas em Tempo Real</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <div class="converter">
+            <input type="number" id="amount" placeholder="Valor" />
+            
+            <select id="fromCurrency">
+                <option value="USD">Dólar (USD)</option>
+                <option value="BRL">Real (BRL)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="GBP">Libra (GBP)</option>
+            </select>
+
+            <span>para</span>
+
+            <select id="toCurrency">
+                <option value="USD">Dólar (USD)</option>
+                <option value="BRL">Real (BRL)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="GBP">Libra (GBP)</option>
+            </select>
+
+            <button id="convertButton">Converter</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
